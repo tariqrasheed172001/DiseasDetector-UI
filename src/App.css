@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+.cardss{
+  display: flex;
+  margin-left: 8%;
+}
+.card{
+  margin-top: 15%;
+  margin-left: 10%;
+}
+.header{
+  width: 50%;
+  background-color: #192841;
+  margin-left: 25%;
+  border-radius: 3rem;
+  position: fixed;
+  margin-top: 3%;
+}
+.header p{
+  color: white;
+  height: 60px;
+  font-size: larger;
+  align-items: center;
+  justify-content: center;
+  margin-left: 45%;
+  padding-top: 0.9rem;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .cardss{
+    flex-direction: column;
+  }
+  .card{
+    margin-top: 5%;
+    margin-left: 8%;
+  }
+}
+
